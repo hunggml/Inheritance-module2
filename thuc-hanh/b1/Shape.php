@@ -1,15 +1,16 @@
 <?php
 
-class Shape {
+class Shape
+{
     public $name;
 
-    public function __construct($_name)
+    public function __construct($name)
     {
-        $this->name = $_name;
+        $this->name = $name;
     }
 
     public function show()
     {
-        return "I am Shape, my name is  $this->name";
+        return "I am a shape. My name is $this->name";
     }
 }
